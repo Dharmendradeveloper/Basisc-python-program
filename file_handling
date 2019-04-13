@@ -1,0 +1,47 @@
+#file1=open("files.txt","r")
+#file1=file1.read()
+#print(file1.read())
+
+
+#print(file1.seek(0,0))
+#print(file1.read())
+#print(file1.seek(0,0))
+#print(file1.read(10))
+#print(file1.read(10))
+#print(file1.tell())
+#//to tell about how many character are there// 
+
+
+
+#file2=open("files1.txt","w")
+#print(file2.write("we are not intelligent people"))
+
+
+
+#file3=open("files.txt","a")#open the existing file
+#print(file3.write("you are my love"))#write data in existing file
+#file3.close()
+#file3=open("files.txt","r")#open the file for reading purpose
+#print(file3.read())#read the file
+
+
+
+#file4=open("files.txt","a+")
+#print(file4.write("i have my own life which i can make beautiful"))
+#print(file4.seek(0,0))
+#print(file4.read())
+
+
+#To copied the previous file
+
+#ufn=input("enter file name")
+#ufn=ufn+".txt"#new file is created
+#file1=open(ufn,"r")
+#print(file1.read())
+#file2=open("copied.txt","w")
+#print(file2.write(file1.read()))
+#file1.close()
+#file2.close()
+file2=open("copied.txt","r")
+print(file2.read())
+file2.close()
