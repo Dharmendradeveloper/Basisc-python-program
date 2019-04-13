@@ -1,0 +1,10 @@
+n=int(input("enter the number"))
+fact=1
+j=1
+#if(n==0):
+    #print("fact of zero is 1")
+while j<=n:
+    
+    fact=fact*j
+    j=j+1
+print(fact)   
