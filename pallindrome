@@ -1,0 +1,7 @@
+x="Radar"
+x=x.casefold()#to convert in lower case
+y=reversed(x)
+if list(x)==list(y):
+    print("this is pallindrome",x)
+else:
+    print("this is not pallindrome")
