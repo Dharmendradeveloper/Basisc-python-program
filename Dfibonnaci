@@ -1,0 +1,14 @@
+num=int(input("enter the num"))
+n1=1
+n2=2
+temp=0
+while temp<num:
+    
+        print(n1,end=",")
+        nth=n1+n2
+        n1=n2
+        n2=nth
+        temp=temp+1
+        if(temp==num):
+            print(n1)
+    
