@@ -2,7 +2,7 @@ numlines = 0
 numwords = 0
 numchar = 0
 
-file = open("abc.txt",'r')
+file = open("test.txt",'r')
 for line in file:
       wordlist = line.split() #line.split() creat list for each sentence
       print(wordlist)
@@ -20,3 +20,21 @@ example of "abc.text" is:-
 I am learning python.
 I am curious to learn python.
 pythos is really a very interesting language.
+
+--------------------------------------------------------------------------------------------------
+**************************2nd method*********************
+
+
+file = open("test.txt",'r')
+data = file.read()
+
+numchar = len(data)
+numwords = len(data.split())
+numlines = len(data.splitlines())
+
+print(numchar,numwords,numlines)
+
+
+
+
+
