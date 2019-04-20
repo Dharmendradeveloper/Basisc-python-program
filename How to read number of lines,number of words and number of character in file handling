@@ -1,0 +1,22 @@
+numlines = 0
+numwords = 0
+numchar = 0
+
+file = open("abc.txt",'r')
+for line in file:
+      wordlist = line.split() #line.split() creat list for each sentence
+      print(wordlist)
+      numlines+=1
+      numwords+=len(wordlist)
+      numchar+=len(line)
+
+print("lines: %d\n words: %d\n character: %d" %(numlines,numwords,numchar))    
+
+------------------------------------------------------------------------------------------
+you can create  a file with name abc in text format.
+
+example of "abc.text" is:-
+
+I am learning python.
+I am curious to learn python.
+pythos is really a very interesting language.
